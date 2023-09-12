@@ -88,8 +88,12 @@ Once logged in, you can access the CRM functionalities:
 Admin Dashboard: Only accessible to admin users, where you can manage customer records.
 Customer Records: View, add, update, and delete customer records.
 Log out when you are done.
-#Contributing
+# Contributing
 If you'd like to contribute to this project, please follow these steps:
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and test thoroughly.
+- Create a pull request with a clear description of your changes.
 
 ## Fork the repository.
 Create a new branch for your feature or bug fix.
