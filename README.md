@@ -46,36 +46,42 @@ Activate the virtual environment:
 On Windows:
 
 ```bash
-Copy code
 venv\Scripts\activate
-
 ```
-bash
-Copy code
-source venv/bin/activate
-Install project dependencies:
 
-bash
-Copy code
+```bash
+source venv/bin/activate
+```
+
+Install project dependencies:
+```bash
 pip install -r requirements.txt
+```
 Run database migrations:
 
-bash
-Copy code
+```bash
+python manage.py migrations
 python manage.py migrate
-Create a superuser (admin account):
+```
 
-bash
-Copy code
+```bash
+Create a superuser (admin account):
+```
+
+
+```bash
 python manage.py createsuperuser
+```
+
 Start the development server:
 
-bash
-Copy code
+```bash
 python manage.py runserver
-Open your web browser and access the application at http://127.0.0.1:8000/.
+```
 
-#Usage
+## Open your web browser and access the application at http://127.0.0.1:8000/.
+
+# Usage
 Open your web browser and navigate to http://127.0.0.1:8000/.
 Register a new user account or log in with the admin account created during installation.
 Once logged in, you can access the CRM functionalities:
@@ -85,7 +91,7 @@ Log out when you are done.
 #Contributing
 If you'd like to contribute to this project, please follow these steps:
 
-##Fork the repository.
+## Fork the repository.
 Create a new branch for your feature or bug fix.
 Make your changes and test thoroughly.
 Create a pull request with a clear description of your changes.
